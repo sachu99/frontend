@@ -1,0 +1,32 @@
+body{
+    background-color: red;
+}
+#services{
+    flex-direction: column;
+}
+#clients{
+    overflow: hidden;
+}
+/* navigaion  */
+#navbar{
+    flex-direction: column;
+}
+#home{
+    height: 280px;
+    padding: 3px 60px;
+
+}
+#home::before{
+    height: 400px;
+    
+
+}
+.home p{
+    font-size: 1.2rem;
+}
+.home h1{
+    font-size: 1.9rem;
+}
+#navbar ul li a{
+    font-size: 1rem;
+}
